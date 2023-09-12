@@ -1,6 +1,6 @@
 :root{
     --colorPrincipal01: #fdfdfd;
-    --colorFuentePrimario: #424242;
+    --colorFuentePrimario: #796e6e;
     --colorBoton: #26aed8;
 }
 button{
@@ -10,6 +10,9 @@ button{
     border-radius: 10px;
     color: var(--colorBoton);
     font-weight: bold;
+}
+button:hover{
+    cursor: pointer;
 }
 body{
     margin: 0;
@@ -43,4 +46,5 @@ a:hover {
     margin: 30px 100px;
 
 }
+
 
