@@ -1,0 +1,46 @@
+:root{
+    --colorPrincipal01: #fdfdfd;
+    --colorFuentePrimario: #424242;
+    --colorBoton: #26aed8;
+}
+button{
+    background-color: var(--colorPrincipal01);
+    border: 2px solid var(--colorBoton);
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: var(--colorBoton);
+    font-weight: bold;
+}
+body{
+    margin: 0;
+    background-color: var(--colorPrincipal01);
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--colorFuentePrimario);
+}
+nav{
+    border: px solid black;
+    padding: 5px 0;
+}
+nav li{
+    display: inline;
+    padding-left: 35px;
+    font-weight: bold;
+
+}
+nav li a{
+    text-decoration: none;
+    color: black;
+}
+a:hover {
+    color: #c0bdbd;
+}
+.carousel{
+    margin: 8px;
+    border: 1px solid black;
+    padding: 100px;
+}
+.texto-main{
+    margin: 30px 100px;
+
+}
+
